@@ -1,0 +1,52 @@
+body{
+    font-family: tahoma;
+    font-size: 24px;
+}
+div.box{
+    border: 5px solid red;
+    width: 600px;
+    height: 600px;
+    overflow: auto;
+    position: relative;
+    left: 300px;
+    top: auto;
+}
+.section{
+    border: 2px solid blue;
+    width: auto;
+    height: 500px;
+    position: relative;
+}
+.section img{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+}
+a{
+    background-color: darkturquoise;
+    position: relative;
+    left: 300px;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: chocolate;
+}
+a:active{
+    color: darkblue;
+}
+a:hover{
+    color: darkmagenta;
+    background-color: darkslategray;
+}
+li {
+    padding: 30px;
+    width: auto;
+}
+li :nth-child(4){
+    border: firebrick;
+}
+
